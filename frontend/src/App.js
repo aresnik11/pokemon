@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import PokemonContainer from './PokemonContainer';
 
 class App extends React.Component {
   state = {
@@ -21,6 +22,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <h1>Welcome to the Pokemon App</h1>
+        <PokemonContainer pokemon={this.state.pokemon} />
       </div>
     )
   }
