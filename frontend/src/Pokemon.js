@@ -2,7 +2,7 @@ import React from 'react';
 
 const Pokemon = (props) => {
     return (
-        <div>
+        <div className="pokemon">
             <h1>{props.pokemon.name}</h1>
             <img src={props.pokemon.front_img} alt={props.pokemon.name} />
             <h4>Height: {props.pokemon.height}</h4>
