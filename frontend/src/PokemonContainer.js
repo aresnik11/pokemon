@@ -8,8 +8,7 @@ class PokemonContainer extends React.Component {
 
     render() {
         return (
-            <div>
-                <h1>Pokemon Container</h1>
+            <div className="pokemon-container">
                 {this.makePokemon()}
             </div>
         )
