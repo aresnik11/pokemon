@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Pokemon = (props) => {
+    console.log(props)
     return (
         <div className="pokemon">
             <h1>{props.pokemon.name}</h1>
